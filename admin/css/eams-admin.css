@@ -1,0 +1,115 @@
+/**
+ * Admin CSS for Event Attendee Management System
+ */
+
+/* General admin styles */
+.eams-admin-wrap {
+    margin: 20px 0;
+}
+
+.eams-action-buttons {
+    margin: 15px 0;
+}
+
+/* Table styles */
+.eams-table-wrapper {
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Form styles */
+.eams-form {
+    max-width: 800px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Modal styles */
+.eams-modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.eams-modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 50%;
+    max-width: 500px;
+    position: relative;
+}
+
+.eams-modal-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.eams-modal-close:hover,
+.eams-modal-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* QR Code modal */
+.eams-qr-content {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.eams-qr-image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.eams-qr-info {
+    margin-bottom: 20px;
+}
+
+.eams-qr-actions {
+    margin-top: 20px;
+}
+
+.eams-qr-actions button {
+    margin: 0 5px;
+}
+
+/* Confirmation modal */
+.eams-confirm-actions {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.eams-confirm-actions button {
+    margin-left: 10px;
+}
+
+/* Mobile responsive fixes */
+@media screen and (max-width: 782px) {
+    .eams-modal-content {
+        width: 80%;
+        margin: 30% auto;
+    }
+    
+    .form-table th {
+        padding-bottom: 5px;
+    }
+}
